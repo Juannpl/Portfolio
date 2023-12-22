@@ -1,0 +1,9 @@
+.projectItems {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  color: white;
+}

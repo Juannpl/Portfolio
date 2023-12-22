@@ -1,0 +1,31 @@
+.inputField {
+  /* all: unset; */
+  border: none;
+  border-radius: 0.5rem;
+  padding: 3.5% 3%;
+  width: 94%;
+  background-color: black;
+  color: white;
+
+  font-size: 0.9rem;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+/* Styles pour l'input lorsqu'il a le focus */
+input:focus {
+  outline: none; /* Supprime la bordure de focus */
+  box-shadow: none; /* Supprime l'ombre de focus */
+}
+
+/* Désactiver les suggestions de navigateur pour l'input */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Couleur de fond pour la suggestion */
+}
+
+/* Désactiver la suggestion lors du survol (pour certains navigateurs) */
+input::hover {
+  background-color: transparent !important;
+}

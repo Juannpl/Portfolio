@@ -1,0 +1,77 @@
+/*SKILLS*/
+
+.skillsParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frontSkills,
+.backSkills,
+.toolsSkills,
+.contactFormParent,
+.projectItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 3rem;
+
+  background-color: rgba(33, 156, 144, 0.25);
+
+  border: 1px solid #219c90;
+  border-radius: 40px;
+}
+
+.titleSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.5rem 5%;
+  margin: 1rem 0 3rem 0;
+  height: 3rem;
+
+  /* background-color: rgba(15, 15, 15, 0.75); */
+  background-color: black;
+
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+.skillsList {
+  padding: 0 0 2rem 0;
+  width: 100%;
+}
+
+.ulSkillsList {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ulSkillsList li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.parentImgLogo {
+  width: 3rem;
+}
+
+.parentImgLogo img {
+  object-fit: contain;
+}

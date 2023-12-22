@@ -1,0 +1,80 @@
+.contactFormParent {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactFormParent form {
+  text-align: center;
+  width: 70%;
+  height: 70%;
+}
+
+.contact {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 70%;
+}
+
+.form-group div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 40%;
+}
+
+.form-group textarea {
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+
+  resize: none;
+
+  padding: 2%;
+  font-size: 0.9rem;
+}
+
+/* Pour les navigateurs basés sur WebKit (Chrome, Safari) */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #219c90;
+  border-radius: 6px;
+}
+
+/* Pour Internet Explorer */
+textarea::-ms-scrollbar {
+  width: 8px;
+}
+
+textarea::-ms-scrollbar-thumb {
+  background-color: #219c90;
+  border-radius: 6px;
+}
+
+.form-group textarea:focus {
+  outline: none;
+}
+
+.btnSubmit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  height: 30%;
+}
